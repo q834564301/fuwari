@@ -4,10 +4,11 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
-    "check": "astro check",
     "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
+    "cm": "gitacp",
+    "start": "astro dev",
+    "check": "astro check",
     "astro": "astro",
     "type-check": "tsc --noEmit --isolatedDeclarations",
     "new-post": "node scripts/new-post.js",
