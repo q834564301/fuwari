@@ -6,11 +6,10 @@ image: 'https://img.cdn1.vip/i/68a9f27258d63_1755968114.webp'
 tags: [Git]
 category: '开发'
 draft: false
-
 ---
-commit 规范
+## commit 规范
 
-可以创建一个 `<font color="#9bbb59">`commit_msg.txt `</font>` 文件, 然后使用 `<font color="#9bbb59">`git commit -F commit_msg.txt `</font>` 来规范格式
+可以创建一个 commit_msg.txt 文件, 然后使用 git commit -F commit_msg.txt  来规范格式
 
 ---
 
