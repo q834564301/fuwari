@@ -1,5 +1,5 @@
 ---
-title: Nvm - 常用指令
+title: Nvm - 常用命令
 published: 2025-08-25
 description: 使用 nvm 更好地管理 node 多开发环境
 image: https://img.cdn1.vip/i/68ac18c9dfda7_1756109001.webp
