@@ -31,4 +31,4 @@ yarn.lock
 *.iml
 
 # commit
-commitmsg.txt
+commit_msg.txt
