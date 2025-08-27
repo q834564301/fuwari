@@ -2,7 +2,7 @@
 title: Nvm - 常用命令
 published: 2025-08-25
 description: 使用 nvm 更好地管理 node 多开发环境
-image: https://img.cdn1.vip/i/68ac18c9dfda7_1756109001.webp
+image: https://img.cdn1.vip/i/68aefd1c62e84_1756298524.webp
 tags: [Nvm]
 category: Js
 draft: false
