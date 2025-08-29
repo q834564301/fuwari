@@ -33,8 +33,7 @@ uv pip install pip --upgrade
 
 ## pip 包通过 uv 加速安装和升级
 
-> [!warning] 注意
-> 一般情况下建议使用 uv add 安装包, 如果和 pip 混用, 怕包依赖出现问题, 同时混用也不方便管理
+**==注意: 一般情况下建议使用 uv add 安装包, 如果和 pip 混用, 怕包依赖出现问题, 同时混用也不方便管理==**
 
 ```python
 uv pip install --upgrade pip setuptools wheel
@@ -69,8 +68,7 @@ uv python install 3.9
 
 ## 快速启动他人 uv 项目
 
-> [!note]- 注意
-> 例如别人用 uv 创建的项目, 使用 uv sync 会直接读取 当前项目下的 uv 配置, 生成对应的开发环境
+**==注意: 例如别人用 uv 创建的项目, 使用 uv sync 会直接读取 当前项目下的 uv 配置, 生成对应的开发环境==**
 
 ```python
 uv sync
@@ -110,5 +108,3 @@ uv add --group dev pandas  # 安装到开发环境
 uv add --group production requests  # 安装到生产环境
 uv add "numpy>=2.0"   # 版本条件
 ```
-
----
