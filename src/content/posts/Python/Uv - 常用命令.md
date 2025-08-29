@@ -3,8 +3,8 @@ title: uv - 常用命令
 published: 2025-08-29
 description: 使用 uv 快速实现虚拟化 python 开发环境
 image: https://img.cdn1.vip/i/68b178c6246a4_1756461254.webp
-tags: [Uv]
-category: Python
+tags: [Python, uv]
+category: 编程开发
 draft: false
 ---
 ## 安装 uv
