@@ -1,5 +1,4 @@
 ---
----
 title: vmware 下 debian - 硬盘扩容 
 published: 2025-09-08
 description: 记录 vm 虚拟机下 debian 13 的扩容操作
@@ -7,7 +6,6 @@ image: https://img.cdn1.vip/i/68beeec6a1345_1757343430.webp
 tags: [debian, vmware]
 category: linux
 draft: false
----
 
 ### 背景
 
@@ -46,6 +44,4 @@ draft: false
 	 2. 将该模块列入不装入名单。编辑文件命令：sudo vi  /etc/modprobe.d/blacklist.conf，在文件最后一行加：blacklist i2c_piix4，保存退出  
 	 3. 重新生成引导文件。命令：sudo update-initramfs -u -k all  
 	 4. 重启系统。命令：reboot
-
-
 ---
