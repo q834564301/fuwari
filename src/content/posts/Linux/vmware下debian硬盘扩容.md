@@ -39,8 +39,10 @@ draft: false
 问题描述：开机时提示“piix4_smbus 0000:00:07.3: SMBus Host controller not enabled”
 出现原因：系统装入i2c_piix4模块所致，因为系统找不到这个模块，所以报错
 
- 解决办法：
-    1. 查明装入模块的确切名字。命令：lsmod | grep i2c (查询结果为：i2c_piix4 模块)
-    2. 将该模块列入不装入名单。编辑文件命令：sudo vi  /etc/modprobe.d/blacklist.conf，在文件最后一行加：blacklist i2c_piix4，保存退出
-    3. 重新生成引导文件。命令：sudo update-initramfs -u -k all
-    4. 重启系统。命令：reboot
+
+解决办法：
+
+1. 查明装入模块的确切名字。命令：lsmod | grep i2c (查询结果为：i2c_piix4 模块)
+2. 将该模块列入不装入名单。编辑文件命令：sudo vi  /etc/modprobe.d/blacklist.conf，在文件最后一行加：blacklist i2c_piix4，保存退出
+3. 重新生成引导文件。命令：sudo update-initramfs -u -k all
+4. 重启系统。命令：reboot
