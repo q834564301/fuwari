@@ -37,6 +37,8 @@ draft: false
 #### 疑难杂症
 
 问题描述：开机时提示“piix4_smbus 0000:00:07.3: SMBus Host controller not enabled”
+
+
 出现原因：系统装入i2c_piix4模块所致，因为系统找不到这个模块，所以报错
 
 
