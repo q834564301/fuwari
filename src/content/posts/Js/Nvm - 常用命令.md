@@ -19,6 +19,4 @@ nvm ls available                                  // 显示可以安装的所有
 nvm use                                           // 切换到使用指定的 node.js 版本
 nvm v                                             // 显示 nvm 版本
 nvm install stable                                // 安装最新稳定版
-nvm npm_mirror https://npm.taobao.org/mirrors/npm            // 设置 npm 下载镜像地址
-nvm node_mirror https://npm.taobao.org/mirrors/node          // 设置 node 下载镜像地址
 ```
