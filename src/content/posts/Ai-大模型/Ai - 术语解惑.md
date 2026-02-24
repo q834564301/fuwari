@@ -2,8 +2,9 @@
 title: Ai - 术语解惑
 published: 2026-02-24
 description: mcp, skill 这种最具迷惑性了
-image: https://img.scdn.io/i/699d85aeaca5e_1771931054.webp
-
+image: https://img.cdn1.vip/i/68beeec6a1345_1757343430.webp
+tags: [AI, LLM, 术语, 概念解析, 入门]
+category: 'AI-大模型'
 draft: false
 ---
 | **名称**                 | **作用 / 定义**                                                                                |
