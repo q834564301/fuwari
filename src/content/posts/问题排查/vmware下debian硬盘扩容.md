@@ -3,8 +3,8 @@ title: vmware 下 debian - 硬盘扩容
 published: 2025-09-08
 description: 记录 vm 虚拟机下 debian 13 的扩容操作
 image: https://img.cdn1.vip/i/68beeec6a1345_1757343430.webp
-tags: [debian, vmware]
-category: 编程开发
+tags: [VMware,Debian,Linux,教程,运维]
+category: '问题排查'
 draft: false
 ---
 ### 背景
@@ -38,9 +38,7 @@ draft: false
 
 问题描述：开机时提示“piix4_smbus 0000:00:07.3: SMBus Host controller not enabled”
 
-
 出现原因：系统装入i2c_piix4模块所致，因为系统找不到这个模块，所以报错
-
 
 解决办法：
 

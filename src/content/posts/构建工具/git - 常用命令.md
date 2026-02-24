@@ -3,8 +3,8 @@ title: 'git - 常用命令'
 published: 2025-08-24
 description: '工作中常用的 git 命令, 助你事半功倍'
 image: 'https://img.cdn1.vip/i/68a9f27258d63_1755968114.webp'
-tags: [Git]
-category: '编程开发'
+tags: [Git,代码片段,教程,入门]
+category: '构建工具'
 draft: false
 ---
 ## commit 规范

@@ -3,8 +3,8 @@ title: Fuwari - Markdown 示例
 published: 2025-09-09
 description: 展示一下该框架常用的 markdown 语法
 image: https://img.cdn1.vip/i/68bfe5f13897e_1757406705.webp
-tags: [Markdown]
-category: 编程开发
+tags: [Fuwari,Markdown, 教程, 代码片段, 入门]
+category: '前端框架'
 draft: false
 ---
 ## 语法高亮
